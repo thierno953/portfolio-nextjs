@@ -1,6 +1,6 @@
 "use client";
 import { siteConfig } from "@/config/site-config";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import Footer from "./footer";
 
@@ -37,7 +37,7 @@ const LeftPanel = () => {
           </p>
         </div>
         {/* Buttons Container */}
-        <div className="flex items-center gap-3 mt-6">
+        <div className="flex items-center flex-wrap gap-3 mt-6">
           <a
             href={`${siteConfig.locationLink}`}
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
@@ -45,13 +45,14 @@ const LeftPanel = () => {
             <MapPin size="14" />
             {siteConfig.location}
           </a>
-          <a
-            href={`mailto:${siteConfig.email}`}
-            className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
-          >
+          <p className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800">
+            <Phone size="14" />
+            {siteConfig.phone}
+          </p>
+          <p className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800">
             <Mail size="14" />
-            Contact Me
-          </a>
+            {siteConfig.email}
+          </p>
         </div>
         {/* Footer */}
         <div className="hidden mt-6 xl:flex">

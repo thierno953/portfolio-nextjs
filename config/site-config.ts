@@ -95,14 +95,12 @@ const GridItems: GridItemInterface[] = [
     ],
   },
   {
-    layout: "2x2",
-    type: "social",
+    layout: "2x1",
+    type: "mentor",
     title: "Jenkins",
-    username: "@thierno",
+    icon: "superpeer",
     buttonLink: "https://github.com/thierno953/Jenkins-SonarQube-Maven",
     color: "#1DA1F2",
-    description:
-      "My goal is to share the concepts I learn, the projects I build, and the tasks I perform regarding DevOps and System Admin.",
   },
   {
     layout: "2x1",
@@ -117,13 +115,7 @@ const GridItems: GridItemInterface[] = [
     title: "Docker Swarm",
     icon: "superpeer",
     buttonLink: "https://github.com/thierno953/Docker-Swarm",
-  },
-  {
-    layout: "2x1",
-    type: "project",
-    title: "Vagrant",
-    icon: "superpeer",
-    buttonLink: "https://github.com/thierno953/Vagrant",
+    color: "#1DA1F2",
   },
   {
     layout: "2x4",
@@ -175,6 +167,7 @@ const GridItems: GridItemInterface[] = [
     title: "Prometheus",
     icon: "superpeer",
     buttonLink: "https://github.com/thierno953/Prometheus",
+    color: "#1DA1F2",
   },
   {
     layout: "2x1",
@@ -182,6 +175,13 @@ const GridItems: GridItemInterface[] = [
     title: "Linux",
     icon: "superpeer",
     buttonLink: "https://github.com/thierno953/Linux",
+  },
+  {
+    layout: "2x1",
+    type: "project",
+    title: "Vagrant",
+    icon: "superpeer",
+    buttonLink: "https://github.com/thierno953/Vagrant",
   },
   {
     layout: "2x4",
@@ -221,9 +221,10 @@ export const siteConfig = {
   creator: "Thierno Barry",
   title: "Developer & DevOps",
   bio: "NodeJS Developer / Junior DevOps Engineer.",
-  location: "Brussels",
+  location: "Belgium, Brussels",
   locationLink:
     "https://www.google.com/maps/place/Bruxelles/@50.8552034,4.2930172,12z/data=!3m1!4b1!4m6!3m5!1s0x47c3a4ed73c76867:0xc18b3a66787302a7!8m2!3d50.8476424!4d4.3571696!16zL20vMDJybmJ2?entry=ttu",
   email: "thiernobarry554@gmail.com",
+  phone: "+32 4 66 24 01 03",
   items: GridItems,
 } as const;
