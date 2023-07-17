@@ -18,10 +18,11 @@ const LeftPanel = () => {
             loading="eager"
             alt="avatar"
             placeholder="blur"
-            src="/pp-new3.png"
+            src="/thierno.jpg"
             width={120}
             height={120}
-            blurDataURL="/pp-new3.png"
+            blurDataURL="/thierno.jpg"
+            className="rounded-md"
           />
         </div>
 

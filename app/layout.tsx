@@ -39,7 +39,7 @@ const sfPRO = localFont({
 });
 
 export const metadata = {
-  title: "makrdev",
+  title: "poukal",
   description: "A create video tutorials for Next.js, Supabase and OpenAI.",
 };
 
