@@ -13,7 +13,7 @@ const Social = ({ item }: { item: GridItemInterface }) => {
         </div>
         <div className="text-sm text-neutral-500">{item.username}</div>
         {item.description && (
-          <div className="mt-1 text-sm text-neutral-500 line-clamp-2">
+          <div className="mt-1 text-sm text-neutral-500">
             {item.description}
           </div>
         )}
