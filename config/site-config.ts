@@ -170,24 +170,18 @@ const GridItems: GridItemInterface[] = [
     ],
   },
   {
-    layout: "2x2",
-    type: "social",
-    title: "Full-stack Multilingual Blog with Next.js 13",
-    username: "@batuhanbilginn",
-    description:
-      "Learn how to build a full-stack, multilingual and high performant blog website with Next.js 13.4 and Directus.",
-    icon: "udemy",
-    buttonTitle: "Enroll",
-    buttonSecondaryText: "%90 OFF",
-    buttonLink:
-      "https://www.udemy.com/course/nextjs13-fullstack-blog-seo-internationalization/?couponCode=MAKRDEVFELLOWS2",
-  },
-  {
     layout: "2x1",
     type: "project",
     title: "Prometheus",
     icon: "superpeer",
     buttonLink: "https://github.com/thierno953/Prometheus",
+  },
+  {
+    layout: "2x1",
+    type: "project",
+    title: "Linux",
+    icon: "superpeer",
+    buttonLink: "https://github.com/thierno953/Linux",
   },
   {
     layout: "2x4",
